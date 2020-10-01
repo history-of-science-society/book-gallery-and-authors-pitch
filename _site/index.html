@@ -1,0 +1,1266 @@
+<style>
+  .hss-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0 25px;
+  }
+
+  .hss-container a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+  .hss-directory {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+  }
+  .hss-directory a {
+    background-color: #7a7a7a;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: opacity 200ms ease-in;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    align-self: center;
+    white-space: nowrap;
+  }
+
+  .hss-directory img {
+    height: 20px;
+
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .hss-directory a:hover {
+    opacity: 0.75;
+  }
+
+  .hss-gallery {
+    border-bottom: 1px solid #dddddd;
+  }
+  .hss-gallery-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .hss-gallery-header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: text-decoration 200ms ease-in-out;
+  }
+
+  .hss-gallery-header p {
+    color: #ffffff;
+  }
+
+  .hss-gallery-header a:hover {
+    text-decoration: underline;
+  }
+  .hss-gallery-header img {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .hss-gallery-discount {
+    background: #e6e6e6;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+  }
+  .hss-subheader-container {
+    background-color: #e6e6e6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #7a7a7a;
+  }
+  .hss-subheader {
+    margin-bottom: 0;
+    background: #7a7a7a;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #ffffff;
+    top: 0;
+  }
+
+  .hss-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-height: 600px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+    justify-content: center;
+    background-color: #e6e6e6;
+  }
+
+  .hss-gallery-item {
+    flex: 0;
+    min-width: 275px;
+
+    margin: 1rem;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35), 2px 2px 7px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out;
+    background-color: #ffffff;
+  }
+
+  .hss-gallery-link {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hss-gallery-ap {
+    position: absolute;
+    padding: 4px;
+    background-color: #f9f871;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: auto;
+    height: auto;
+  }
+
+  .hss-gallery-item:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 12px 12px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .hss-gallery-item img {
+    height: 250px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #dddddd;
+  }
+  .hss-gallery-item header {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dddddd;
+    /* padding: 1.5rem 1.75rem; */
+  }
+
+  .hss-gallery-author {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .hss-gallery-pub {
+    color: #777;
+    /* text-transform: uppercase; */
+  }
+
+  .hss-gallery-title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0.25rem 0;
+
+    /* overflow: hidden; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .hss-gallery__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1.75rem 1.5rem;
+  }
+
+  .hss-gallery__body--bottom {
+    margin-top: auto;
+  }
+
+  .hss-gallery-target {
+    margin-bottom: 65px;
+  }
+</style>
+<div class="hss-container">
+  <h1>HSS SHOT Book Gallery</h1>
+  <div class="hss-subheader-container">
+    <p class="hss-subheader">Jump to a publisher</p>
+    <div class="hss-directory">
+      
+      <a href="#brepols">
+        Brepols
+      </a>
+      
+      <a href="#de-gruyter">
+        De Gruyter
+      </a>
+      
+      <a href="#johns-hopkins-university-press">
+        Johns Hopkins University Press
+      </a>
+      
+      <a href="#princeton-university-press">
+        Princeton University Press
+      </a>
+      
+      <a href="#the-mit-press">
+        The MIT Press
+      </a>
+      
+    </div>
+  </div>
+  
+  <div
+    class="hss-gallery-target"
+    id="brepols"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #0085CA"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://www.brepols.net"
+      >
+        <img
+          src="https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/668099414/99118630_brepols_boat_with_border_square.jpg"
+          alt="Brepols"
+        />
+        <h2>Brepols</h2></a
+      >
+    </header>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503583037-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/668099414/99123754_svcma_16.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Visualization of Knowledge in Medieval and Early Modern Europe</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">M. Kupfer, A. S. Cohen, J.H. Chajes (eds.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586380-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/668099414/99140350_dda_105.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">À l’aube de la théorie des quanta. Notes inédites d’Émile Borel sur un cours de Paul Langevin au Collège de France (1912-1913)</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">M. C. Bustamante De la Ossa</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586373-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/668099414/99140359_stah_astrolabes.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Répertoire des facteurs d’astrolabes et de leurs œuvres en terres d’Islam</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">F. Maddison †, A. Brieux †, B. Halff</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503579214-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/668099414/99140370_ssm_1.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Medicine at Monte Cassino. Constantine the African and the Oldest Manuscript of his Pantegni</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">E. Kwakkel, F. Newton</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586397-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/668099414/99140385_pals_1.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Ptolemy's Science of the Stars in the Middle Ages</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">D. Juste, B. van Dalen, D. N. Hasse, C. Burnett (eds.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503568058-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/668099414/99140393_stahmathematicalinstrumentscover_002.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Mathematical Instruments in the Collections of the Bibliothèque Nationale de France</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">A. Turner</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503585710-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668099414/99140403_mscte_2.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Music and the Second Industrial Revolution</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">M. Sala (ed.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503581071-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/668099414/99140411_techne_1.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Perspective as Practice. Renaissance Cultures of Optics</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">S. Dupré (ed.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586038-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/668099414/99140419_techne_4.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Femmes, vulgarisation et pratique des sciences au siècle des Lumières. Les Dialogues sur l’astronomie et la Lettre sur la figure de la Terre de César-François Cassini de Thury</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">D. Aubin</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503582535-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/668099414/99140426_arihs_182-183.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Philippe de La Hire (1640-1718), astronome et physicien à l’Observatoire de Paris</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Archives Internationales d'Histoire des Sciences 69/182-183, 2019</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Brepols (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="de-gruyter"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #007596"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://res.cloudinary.com/hss/image/fetch/w_300/https://www.degruyter.com?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster"
+      >
+        <img
+          src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/670266296/99118630_dg_logo_anschnoben_weiss_gross.png"
+          alt="De Gruyter"
+        />
+        <h2>De Gruyter</h2></a
+      >
+    </header>
+    
+    <p class="hss-gallery-discount">For 20% off order through our conference order form. </p>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/541860?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/670266296/99123754_9783110622072.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Philosophers of Technology </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Stig Børsen Hansen</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/558355?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/670266296/99140350_9783110662467.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">New Approaches to Scientific Realism </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Wenceslao J. Gonzalez (Ed.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/534435">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670266296/99140359_9783110567823.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Dutch Cartesianism and the Birth of Philosophy of Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Andrea Strazzoni</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/575128?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/670266296/99140370_cover_salomon.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Salomon Maimon's Theory of Invention </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Idit Chikurel</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/567062?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/670266296/99140385_9783110669701.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">History of the International Telecommunication Union (ITU)</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Gabriele Balbi and Andreas Fickers (Eds.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/525065?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/670266296/99140393_9783110524611.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">William James and Carl Stumpf: Correspondence (1882-1910) </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Riccardo Martinelli (Ed.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/567030?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/670266296/99140403_9783110669350.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Realm of Facts</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Nicholas Rescher</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/552471?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/670266296/99140411_9783110651409.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Charles S. Peirce: Logic of the Future, Vol. 1, History and Applications </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Ahti-Veikko Pietarinen (Ed.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2017)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/542000?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/670266296/99140419_9783110621631.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Figuring It Out </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">George Englebretsen</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.degruyter.com/view/title/554635?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/670266296/99140426_9783110654301.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Philosophy of Logic and Mathematics. Proceedings of the 41st International Ludwig Wittgenstein Symposium </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Gabriele M. Mras, Paul Weingartner and Bernhard Ritter (Eds.)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                De Gruyter (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="johns-hopkins-university-press"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #005eb8"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://jhupbooks.press.jhu.edu/history-science-society-society-history-technology-joint-virtual-bookstore"
+      >
+        <img
+          src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/670037128/99118630_logo_shield.jpg"
+          alt="Johns Hopkins University Press"
+        />
+        <h2>Johns Hopkins University Press</h2></a
+      >
+    </header>
+    
+    <p class="hss-gallery-discount">For 30% off, use our discount code HFAY from Oct. 6, 2020 to Oct. 20, 2020</p>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/technology-and-environment-history">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/670037128/99123754_pritchard.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Technology and the Environment in History</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Sara B. Pritchard and Carl A. Zimring</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/inscriptions-nature">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/670037128/99140350_chakrabarti.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Inscriptions of Nature: Geology and the Naturalization of Antiquity</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Pratik Chakrabarti</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/scientific-spirit-american-humanism">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670037128/99140359_weldon.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Scientific Spirit of American Humanism</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Stephen P. Weldon</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/time">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/670037128/99140370_mondschein.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">On Time: A History of Western Timekeeping</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Ken Mondschein</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/latour-and-humanities">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/670037128/99140385_felski.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Latour and the Humanities</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">edited by Rita Felski and Stephen Muecke</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/geographies-knowledge">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/670037128/99140393_mayhew.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Geographies of Knowledge: Science, Scale, and Spatiality in the Nineteenth Century</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">edited by Robert J. Mayhew and Charles W. J. Withers</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/can-fixing-dinner-fix-planet">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/670037128/99140403_fanzo.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Can Fixing Dinner Fix the Planet?</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jessica Fanzo</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/havoc-and-reform">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/670037128/99140411_kraft.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Havoc and Reform: Workplace Disasters in Modern America</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">James P. Kraft</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/sovereign-skies">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/670037128/99140419_seyer.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Sovereign Skies: The Origins of American Civil Aviation Policy</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Sean Seyer</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/doctor-who-fooled-world">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/670037128/99140426_deer.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Doctor Who Fooled the World: Science, Deception, and the War on Vaccines</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Brian Deer</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#david-lindsay-roberts">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://jhupbooks.press.jhu.edu/title/republic-numbers">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://images-na.ssl-images-amazon.com/images/I/41IRMnYuR2L._AC_SY400_.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Republic of Numbers: Unexpected Stories of Mathematical Americans Through History</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">David Lindsay Roberts</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Johns Hopkins University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="princeton-university-press"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #0A347E"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://princeton.press/hss-shot2020 "
+      >
+        <img
+          src="https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/667654661/99118630_puplogo200x200.jpg"
+          alt="Princeton University Press"
+        />
+        <h2>Princeton University Press</h2></a
+      >
+    </header>
+    
+    <p class="hss-gallery-discount">For 30% off use coupon code HSS20</p>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.princeton.edu/books/hardcover/9780691200903/the-riddle-of-the-rosetta">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/667654661/99123754_rosetta.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Riddle of the Rosetta: How an English Polymath and a French Polyglot Discovered the Meaning of Egyptian Hieroglyphs</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jed Z. Buchwald and Diane Greco Josefowicz </p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.princeton.edu/books/hardcover/9780691175324/bedeviled">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/667654661/99140350_bedeviled.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Bedeviled: A Shadow History of Demons in Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jimena Canales</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.princeton.edu/books/hardcover/9780691171982/the-evolution-of-knowledge">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/667654661/99140359_renn_evolutionofknowledge.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Evolution of Knowledge: Rethinking Science for the Anthropocene</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jürgen Renn</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#erika-lorraine-milam">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.princeton.edu/books/paperback/9780691210438/creatures-of-cain">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691181882.jpg?w=640" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Creatures of Cain: The Hunt for Human Nature in Cold War America</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Erika Lorraine Milam</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#michael-d.-gordin">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.princeton.edu/books/hardcover/9780691177373/einstein-in-bohemia">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691177373.jpg?w=640" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Einstein in Bohemia</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Michael D. Gordin</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#he-bian">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.princeton.edu/books/hardcover/9780691179049/know-your-remedies">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691179049.jpg?w=640" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Know Your Remedies: Pharmacy and Culture in Early Modern China</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">He Bian</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                Princeton University Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="the-mit-press"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #0A347E"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://mitpress.mit.edu"
+      >
+        <img
+          src="https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/668246336/99118630_mitpress-colophon_black.png"
+          alt="The MIT Press"
+        />
+        <h2>The MIT Press</h2></a
+      >
+    </header>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/making-art-work">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/668246336/99123754_mccray.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Making Art Work: How Cold War Engineers and Artists Forged a New Creative Culture</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">W. Patrick McCray</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/smart-wife">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/668246336/99140350_strengers.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Smart Wife: Why Siri, Alexa, and Other Smart Home Devices Need a Feminist Reboot</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Yolande Strengers and Jenny Kennedy</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/od">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/668246336/99140359_campbell.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">OD: Naloxone and the Politics of Overdose</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Nancy D. Campbell</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/contraception">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/668246336/99140370_drucker.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Contraception: A Concise History</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Donna J. Drucker</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/states-childhood">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/668246336/99140385_light.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">States of Childhood: From the Junior Republic to the American Republic, 1895-1945</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jennifer S. Light</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/science-and-production-ignorance">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/668246336/99140393_kourany.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Science and the Production of Ignorance: When the Quest for Knowledge Is Thwarted</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Edited by Janet Kourany and Martin Carrier</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/social-science-what">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668246336/99140403_solovey.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Social Science for What?: Battles over Public Funding for the "Other Sciences" at the National Science Foundation</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Mark Solovey</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/technoscience-history">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/668246336/99140411_klein.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Technoscience in History: Prussia, 1750-1850</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Ursula Klein</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/beyond-bakelite">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/668246336/99140419_mercelis.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Beyond Bakelite: Leo Baekeland and the Business of Science and Invention</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Joris Mercelis</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://mitpress.mit.edu/books/sulphuric-utopias">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/668246336/99140426_engelmann.jacket.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Sulphuric Utopias: A History of Maritime Fumigation</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Lukas Engelmann and Christos Lynteris</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+</div>

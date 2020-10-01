@@ -1,0 +1,118 @@
+.hss-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+}
+
+.hss-container a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.hss-gallery {
+  border-bottom: 1px solid #dddddd;
+}
+.hss-gallery-header {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  margin-top: 3rem;
+}
+
+.hss-gallery-header a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: text-decoration 200ms ease-in-out;
+}
+
+.hss-gallery-header a:hover {
+  text-decoration: underline;
+}
+.hss-gallery-header img {
+  height: 50px;
+  width: auto;
+  /* border-radius: 8px; */
+  margin-right: 0.5rem;
+}
+
+.hss-gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* max-height: 600px; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.hss-gallery-item {
+  flex: 0;
+  min-width: 275px;
+
+  margin: 1rem;
+
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.35), 2px 2px 7px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.hss-gallery-item a {
+  width: 100%;
+  height: 100%;
+}
+
+.hss-gallery-item:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 12px 12px 7px rgba(0, 0, 0, 0.15);
+}
+
+.hss-gallery-item img {
+  height: 250px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #dddddd;
+}
+.hss-gallery-item header {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dddddd;
+  /* padding: 1.5rem 1.75rem; */
+}
+
+.hss-gallery-author {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.hss-gallery-pub {
+  color: #777;
+  /* text-transform: uppercase; */
+}
+
+.hss-gallery-title {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0.25rem 0;
+
+  /* overflow: hidden; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hss-gallery__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1.75rem 1.5rem;
+}
+
+.hss-gallery__body--bottom {
+  margin-top: auto;
+}

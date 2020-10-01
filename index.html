@@ -1,0 +1,262 @@
+<style>
+  .hss-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0 25px;
+  }
+
+  .hss-container a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+  .hss-directory {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+  }
+  .hss-directory a {
+    background-color: #7a7a7a;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: opacity 200ms ease-in;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    align-self: center;
+    white-space: nowrap;
+  }
+
+  .hss-directory img {
+    height: 20px;
+
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .hss-directory a:hover {
+    opacity: 0.75;
+  }
+
+  .hss-gallery {
+    border-bottom: 1px solid #dddddd;
+  }
+  .hss-gallery-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .hss-gallery-header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: text-decoration 200ms ease-in-out;
+  }
+
+  .hss-gallery-header p {
+    color: #ffffff;
+  }
+
+  .hss-gallery-header a:hover {
+    text-decoration: underline;
+  }
+  .hss-gallery-header img {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .hss-gallery-discount {
+    background: #e6e6e6;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+  }
+  .hss-subheader-container {
+    background-color: #e6e6e6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #7a7a7a;
+  }
+  .hss-subheader {
+    margin-bottom: 0;
+    background: #7a7a7a;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #ffffff;
+    top: 0;
+  }
+
+  .hss-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-height: 600px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+    justify-content: center;
+    background-color: #e6e6e6;
+  }
+
+  .hss-gallery-item {
+    flex: 0;
+    min-width: 275px;
+
+    margin: 1rem;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35), 2px 2px 7px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out;
+    background-color: #ffffff;
+  }
+
+  .hss-gallery-link {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hss-gallery-ap {
+    position: absolute;
+    padding: 4px;
+    background-color: #f9f871;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: auto;
+    height: auto;
+  }
+
+  .hss-gallery-item:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 12px 12px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .hss-gallery-item img {
+    height: 250px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #dddddd;
+  }
+  .hss-gallery-item header {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dddddd;
+    /* padding: 1.5rem 1.75rem; */
+  }
+
+  .hss-gallery-author {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .hss-gallery-pub {
+    color: #777;
+    /* text-transform: uppercase; */
+  }
+
+  .hss-gallery-title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0.25rem 0;
+
+    /* overflow: hidden; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .hss-gallery__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1.75rem 1.5rem;
+  }
+
+  .hss-gallery__body--bottom {
+    margin-top: auto;
+  }
+
+  .hss-gallery-target {
+    margin-bottom: 65px;
+  }
+</style>
+<div class="hss-container">
+  <h1>HSS SHOT Book Gallery</h1>
+  <div class="hss-subheader-container">
+    <p class="hss-subheader">Jump to a publisher</p>
+    <div class="hss-directory">
+      {% for title in gallerySorted %}
+      <a href="#{{ title['Press or Organization Name'] | slugify }}">
+        {{ title['Press or Organization Name'] }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% for title in gallerySorted %}
+  <div
+    class="hss-gallery-target"
+    id="{{ title['Press or Organization Name'] | slugify }}"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: {{ title['Brand Color'] }}"
+    >
+      <a
+        class="hss-gallery-link"
+        href="{{title['Press or Organization Website']}}"
+      >
+        <img
+          src="{{title.Logo}}"
+          alt="{{ title['Press or Organization Name'] }}"
+        />
+        <h2>{{ title['Press or Organization Name'] }}</h2></a
+      >
+    </header>
+    {% if title['Discount Code'] != "" %}
+    <p class="hss-gallery-discount">{{ title['Discount Code'] }}</p>
+    {% endif %}
+    <div class="hss-gallery-container">
+      {% for item in title.titles %}
+      <article class="hss-gallery-item">
+        {%if item.ap %}
+        <a class="hss-gallery-ap" href="{{ item.ap }}">🎬 HSS Authors' Pitch</a>
+        {% endif %}
+        <a href="{{ item['Link to Title Detail Page'] }}">
+          <header>
+            <img src="{{ item['Title Cover Image'] }}" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">{{ item.Title }}</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">{{ item.Author }}</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                {{ title['Press or Organization Name'] }} ({{ item['Publication Year'] }})
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>

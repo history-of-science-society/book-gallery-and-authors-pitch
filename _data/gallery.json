@@ -1,0 +1,406 @@
+[
+  {
+    "Time": "9/28/2020 10:30",
+    "Name (First)": "Alexander",
+    "Name (Last)": "Sterkens",
+    "Email": "alexander.sterkens@brepols.net",
+    "Press or Organization Name": "Brepols",
+    "Press or Organization Website": "https://www.brepols.net",
+    "Brand Color": "#0085CA",
+    "Text": "#ffffff",
+    "Logo": "https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/668099414/99118630_brepols_boat_with_border_square.jpg",
+    "Discount Code": "",
+    "How many titles would you like to submit?": 10,
+    "titles": [
+      {
+        "Title": "The Visualization of Knowledge in Medieval and Early Modern Europe",
+        "Author": "M. Kupfer, A. S. Cohen, J.H. Chajes (eds.)",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503583037-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/668099414/99123754_svcma_16.jpg"
+      },
+      {
+        "Title": "À l’aube de la théorie des quanta. Notes inédites d’Émile Borel sur un cours de Paul Langevin au Collège de France (1912-1913)",
+        "Author": "M. C. Bustamante De la Ossa",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586380-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/668099414/99140350_dda_105.jpg"
+      },
+      {
+        "Title": "Répertoire des facteurs d’astrolabes et de leurs œuvres en terres d’Islam",
+        "Author": "F. Maddison †, A. Brieux †, B. Halff",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586373-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/668099414/99140359_stah_astrolabes.jpg"
+      },
+      {
+        "Title": "Medicine at Monte Cassino. Constantine the African and the Oldest Manuscript of his Pantegni",
+        "Author": "E. Kwakkel, F. Newton",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503579214-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/668099414/99140370_ssm_1.jpg"
+      },
+      {
+        "Title": "Ptolemy's Science of the Stars in the Middle Ages",
+        "Author": "D. Juste, B. van Dalen, D. N. Hasse, C. Burnett (eds.)",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586397-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/668099414/99140385_pals_1.jpg"
+      },
+      {
+        "Title": "Mathematical Instruments in the Collections of the Bibliothèque Nationale de France",
+        "Author": "A. Turner",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503568058-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/668099414/99140393_stahmathematicalinstrumentscover_002.jpg"
+      },
+      {
+        "Title": "Music and the Second Industrial Revolution",
+        "Author": "M. Sala (ed.)",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503585710-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668099414/99140403_mscte_2.jpg"
+      },
+      {
+        "Title": "Perspective as Practice. Renaissance Cultures of Optics",
+        "Author": "S. Dupré (ed.)",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503581071-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/668099414/99140411_techne_1.jpg"
+      },
+      {
+        "Title": "Femmes, vulgarisation et pratique des sciences au siècle des Lumières. Les Dialogues sur l’astronomie et la Lettre sur la figure de la Terre de César-François Cassini de Thury",
+        "Author": "D. Aubin",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503586038-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/668099414/99140419_techne_4.jpg"
+      },
+      {
+        "Title": "Philippe de La Hire (1640-1718), astronome et physicien à l’Observatoire de Paris",
+        "Author": "Archives Internationales d'Histoire des Sciences 69/182-183, 2019",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503582535-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/668099414/99140426_arihs_182-183.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-09-28 15:30:16",
+    "Name (First)": "Dave",
+    "Name (Last)": "Ryman",
+    "Email": "dryman@mit.edu",
+    "Press or Organization Name": "The MIT Press",
+    "Press or Organization Website": "https://mitpress.mit.edu",
+    "Brand Color": "#0A347E",
+    "Logo": "https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/668246336/99118630_mitpress-colophon_black.png",
+    "Discount Code": "",
+    "How many titles would you like to submit?": 10,
+    "titles": [
+      {
+        "Title": "Making Art Work: How Cold War Engineers and Artists Forged a New Creative Culture",
+        "Author": "W. Patrick McCray",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/making-art-work",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/668246336/99123754_mccray.jacket.jpg"
+      },
+      {
+        "Title": "The Smart Wife: Why Siri, Alexa, and Other Smart Home Devices Need a Feminist Reboot",
+        "Author": "Yolande Strengers and Jenny Kennedy",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/smart-wife",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/668246336/99140350_strengers.jacket.jpg"
+      },
+      {
+        "Title": "OD: Naloxone and the Politics of Overdose",
+        "Author": "Nancy D. Campbell",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/od",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/668246336/99140359_campbell.jacket.jpg"
+      },
+      {
+        "Title": "Contraception: A Concise History",
+        "Author": "Donna J. Drucker",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/contraception",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/668246336/99140370_drucker.jacket.jpg"
+      },
+      {
+        "Title": "States of Childhood: From the Junior Republic to the American Republic, 1895-1945",
+        "Author": "Jennifer S. Light",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/states-childhood",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/668246336/99140385_light.jacket.jpg"
+      },
+      {
+        "Title": "Science and the Production of Ignorance: When the Quest for Knowledge Is Thwarted",
+        "Author": "Edited by Janet Kourany and Martin Carrier",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/science-and-production-ignorance",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/668246336/99140393_kourany.jacket.jpg"
+      },
+      {
+        "Title": "Social Science for What?: Battles over Public Funding for the \"Other Sciences\" at the National Science Foundation",
+        "Author": "Mark Solovey",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/social-science-what",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668246336/99140403_solovey.jacket.jpg"
+      },
+      {
+        "Title": "Technoscience in History: Prussia, 1750-1850",
+        "Author": "Ursula Klein",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/technoscience-history",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/668246336/99140411_klein.jacket.jpg"
+      },
+      {
+        "Title": "Beyond Bakelite: Leo Baekeland and the Business of Science and Invention",
+        "Author": "Joris Mercelis",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/beyond-bakelite",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/668246336/99140419_mercelis.jacket.jpg"
+      },
+      {
+        "Title": "Sulphuric Utopias: A History of Maritime Fumigation",
+        "Author": "Lukas Engelmann and Christos Lynteris",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/sulphuric-utopias",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/668246336/99140426_engelmann.jacket.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-09-29 14:06:43",
+    "Name (First)": "Devon",
+    "Name (Last)": "Renwick",
+    "Email": "dbr@press.jhu.edu",
+    "Press or Organization Name": "Johns Hopkins University Press",
+    "Press or Organization Website": "https://jhupbooks.press.jhu.edu/history-science-society-society-history-technology-joint-virtual-bookstore",
+    "Brand Color": "#005eb8",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/670037128/99118630_logo_shield.jpg",
+    "Discount Code": "For 30% off, use our discount code HFAY from Oct. 6, 2020 to Oct. 20, 2020",
+    "How many titles would you like to submit?": 10,
+    "titles": [
+      {
+        "Title": "Technology and the Environment in History",
+        "Author": "Sara B. Pritchard and Carl A. Zimring",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/technology-and-environment-history",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/670037128/99123754_pritchard.jpg"
+      },
+      {
+        "Title": "Inscriptions of Nature: Geology and the Naturalization of Antiquity",
+        "Author": "Pratik Chakrabarti",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/inscriptions-nature",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/670037128/99140350_chakrabarti.jpg"
+      },
+      {
+        "Title": "The Scientific Spirit of American Humanism",
+        "Author": "Stephen P. Weldon",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/scientific-spirit-american-humanism",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670037128/99140359_weldon.jpg"
+      },
+      {
+        "Title": "On Time: A History of Western Timekeeping",
+        "Author": "Ken Mondschein",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/time",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/670037128/99140370_mondschein.jpg"
+      },
+      {
+        "Title": "Latour and the Humanities",
+        "Author": "edited by Rita Felski and Stephen Muecke",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/latour-and-humanities",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/670037128/99140385_felski.jpg"
+      },
+      {
+        "Title": "Geographies of Knowledge: Science, Scale, and Spatiality in the Nineteenth Century",
+        "Author": "edited by Robert J. Mayhew and Charles W. J. Withers",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/geographies-knowledge",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/670037128/99140393_mayhew.jpg"
+      },
+      {
+        "Title": "Can Fixing Dinner Fix the Planet?",
+        "Author": "Jessica Fanzo",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/can-fixing-dinner-fix-planet",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/670037128/99140403_fanzo.jpg"
+      },
+      {
+        "Title": "Havoc and Reform: Workplace Disasters in Modern America",
+        "Author": "James P. Kraft",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/havoc-and-reform",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/670037128/99140411_kraft.jpg"
+      },
+      {
+        "Title": "Sovereign Skies: The Origins of American Civil Aviation Policy",
+        "Author": "Sean Seyer",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/sovereign-skies",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/670037128/99140419_seyer.jpg"
+      },
+      {
+        "Title": "The Doctor Who Fooled the World: Science, Deception, and the War on Vaccines",
+        "Author": "Brian Deer",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/doctor-who-fooled-world",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/670037128/99140426_deer.jpg"
+      },
+      {
+        "Title": "Republic of Numbers: Unexpected Stories of Mathematical Americans Through History",
+        "Author": "David Lindsay Roberts",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/republic-numbers",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://images-na.ssl-images-amazon.com/images/I/41IRMnYuR2L._AC_SY400_.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#david-lindsay-roberts"
+      }
+    ]
+  },
+  {
+    "Time": "2020-09-26 17:16:18",
+    "Name (First)": "Melissa",
+    "Name (Last)": "Burton",
+    "Email": "Melissa_Burton@press.princeton.edu",
+    "Press or Organization Name": "Princeton University Press",
+    "Press or Organization Website": "https://princeton.press/hss-shot2020 ",
+    "Brand Color": "#0A347E",
+    "Logo": "https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/667654661/99118630_puplogo200x200.jpg",
+    "Discount Code": "For 30% off use coupon code HSS20",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "The Riddle of the Rosetta: How an English Polymath and a French Polyglot Discovered the Meaning of Egyptian Hieroglyphs",
+        "Author": "Jed Z. Buchwald and Diane Greco Josefowicz ",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691200903/the-riddle-of-the-rosetta",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/667654661/99123754_rosetta.jpg"
+      },
+      {
+        "Title": "Bedeviled: A Shadow History of Demons in Science",
+        "Author": "Jimena Canales",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691175324/bedeviled",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/667654661/99140350_bedeviled.jpg"
+      },
+      {
+        "Title": "The Evolution of Knowledge: Rethinking Science for the Anthropocene",
+        "Author": "Jürgen Renn",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691171982/the-evolution-of-knowledge",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/667654661/99140359_renn_evolutionofknowledge.jpg"
+      },
+      {
+        "Title": "Creatures of Cain: The Hunt for Human Nature in Cold War America",
+        "Author": "Erika Lorraine Milam",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/paperback/9780691210438/creatures-of-cain",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691181882.jpg?w=640",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#erika-lorraine-milam"
+      },
+      {
+        "Title": "Einstein in Bohemia",
+        "Author": "Michael D. Gordin",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691177373/einstein-in-bohemia",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691177373.jpg?w=640",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#michael-d.-gordin"
+      },
+      {
+        "Title": "Know Your Remedies: Pharmacy and Culture in Early Modern China",
+        "Author": "He Bian",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691179049/know-your-remedies",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691179049.jpg?w=640",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#he-bian"
+      }
+    ]
+  },
+  {
+    "Time": "2020-09-30 03:23:14",
+    "Name (First)": "Antonia",
+    "Name (Last)": "Conquest",
+    "Email": "antonia.conquest@degruyter.com",
+    "Press or Organization Name": "De Gruyter",
+    "Press or Organization Website": "https://res.cloudinary.com/hss/image/fetch/w_300/https://www.degruyter.com?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+    "Brand Color": "#007596",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/670266296/99118630_dg_logo_anschnoben_weiss_gross.png",
+    "Discount Code": "For 20% off order through our conference order form. ",
+    "How many titles would you like to submit?": 10,
+    "titles": [
+      {
+        "Title": "Philosophers of Technology ",
+        "Author": "Stig Børsen Hansen",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/541860?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/670266296/99123754_9783110622072.jpg"
+      },
+      {
+        "Title": "New Approaches to Scientific Realism ",
+        "Author": "Wenceslao J. Gonzalez (Ed.)",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/558355?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/670266296/99140350_9783110662467.jpg"
+      },
+      {
+        "Title": "Dutch Cartesianism and the Birth of Philosophy of Science",
+        "Author": "Andrea Strazzoni",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/534435",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670266296/99140359_9783110567823.jpg"
+      },
+      {
+        "Title": "Salomon Maimon's Theory of Invention ",
+        "Author": "Idit Chikurel",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/575128?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/670266296/99140370_cover_salomon.jpg"
+      },
+      {
+        "Title": "History of the International Telecommunication Union (ITU)",
+        "Author": "Gabriele Balbi and Andreas Fickers (Eds.)",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/567062?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/670266296/99140385_9783110669701.jpg"
+      },
+      {
+        "Title": "William James and Carl Stumpf: Correspondence (1882-1910) ",
+        "Author": "Riccardo Martinelli (Ed.)",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/525065?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/670266296/99140393_9783110524611.jpg"
+      },
+      {
+        "Title": "The Realm of Facts",
+        "Author": "Nicholas Rescher",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/567030?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/670266296/99140403_9783110669350.jpg"
+      },
+      {
+        "Title": "Charles S. Peirce: Logic of the Future, Vol. 1, History and Applications ",
+        "Author": "Ahti-Veikko Pietarinen (Ed.)",
+        "Publication Year": 2017,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/552471?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/670266296/99140411_9783110651409.jpg"
+      },
+      {
+        "Title": "Figuring It Out ",
+        "Author": "George Englebretsen",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/542000?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/670266296/99140419_9783110621631.jpg"
+      },
+      {
+        "Title": "Philosophy of Logic and Mathematics. Proceedings of the 41st International Ludwig Wittgenstein Symposium ",
+        "Author": "Gabriele M. Mras, Paul Weingartner and Bernhard Ritter (Eds.)",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://www.degruyter.com/view/title/554635?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/670266296/99140426_9783110654301.jpg"
+      }
+    ]
+  }
+]

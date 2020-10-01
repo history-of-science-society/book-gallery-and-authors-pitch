@@ -1,0 +1,198 @@
+<style>
+  .ap {
+    padding: 1em;
+    line-height: 1.4;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+  }
+  .ap__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .ap__card {
+    max-width: 350px;
+    min-width: 290px;
+    margin: 0.5em;
+    border: 3px solid #bdbbbb;
+    background: #fffefe;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    flex: 1;
+  }
+  .ap__header {
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+  .ap__header a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ap__body {
+    padding: 1em;
+    min-height: 200px;
+  }
+
+  .ap__header a:hover {
+    text-decoration: none;
+  }
+
+  .ap__body h2 {
+    margin: 0;
+    font-size: 1.25em;
+    line-height: 1.3;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical; */
+  }
+  .ap__body a {
+    color: #222222;
+    line-height: 1.3;
+  }
+
+  .ap__pub {
+    margin-top: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #444444;
+  }
+  .ap__name {
+    font-size: 1.25em;
+    margin-bottom: 0;
+  }
+
+  .ap__divider {
+    height: 0.25em;
+    display: block;
+    margin: 0.25em 1em;
+    background-color: #bdbbbb;
+    opacity: 0.5;
+  }
+  .ap__footer {
+    padding: 1em;
+  }
+
+  .ap__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+  }
+
+  .ap__buttons a:first-child {
+    margin-right: 0.25em;
+  }
+  .ap__blurb {
+    margin: 0;
+    position: relative;
+    height: 175px;
+    overflow-y: auto;
+    font-size: 1em;
+    word-wrap: break-word;
+  }
+
+  .ap__transcript {
+    flex: 1;
+    margin-top: 1em;
+    display: inline-flex;
+    align-items: center;
+    color: #444444;
+    padding: 0.25em 0.5em;
+    border: 1px solid #bdbbbb;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+  }
+  .ap__transcript:hover {
+    color: #000000;
+    border-color: #000000;
+  }
+
+  .ap__transcript img {
+    margin-right: 5px;
+  }
+</style>
+<div class="ap">
+  <h1>HSS 2020 Authors' Pitch</h1>
+  <p>Welcome to the HSS 2020 Authors’ Book Pitch!</p>
+  <p>
+    At a time when in-person interaction and exchange is limited, the Authors’
+    Book Pitch provides a platform to share new and exciting scholarship. We
+    have invited authors of monographs and editors of collective volumes
+    published in the history of science, technology and medicine in 2019 or 2020
+    to share their work with the HSS and SHOT community in 3-minute videos.
+    Transcripts are also available. Feel free to browse through our videos and
+    learn about the newest releases, directly from the source!
+  </p>
+  <em
+    >(Note: the videos will be available through the first weekend after our
+    meeting and will be deleted when we close our conference platform.)</em
+  >
+  <div class="ap__divider" style="margin: 2rem 0"></div>
+
+  <div class="ap__container">
+    {% for author in ap %}
+    <article class="ap__card" id="{{ author.name | slug }}">
+      <header
+        class="ap__header"
+        style="background-image: url('{{ author.cover }}')"
+      >
+        <a href="{{ author.yt }}" target="_blank" rel="noopener noreferrer"
+          >&nbsp;
+        </a>
+      </header>
+      <div class="ap__body">
+        <h2>
+          <a href="{{ author.link }}" rel="noopener" target="_blank"
+            >{{ author.title }}</a
+          >
+        </h2>
+        <p class="ap__pub">{{author.pub}} ({{author.year}})</p>
+        <p class="ap__name">{{ author.name }}</p>
+      </div>
+      <div class="ap__divider"></div>
+      <div class="ap__footer">
+        <p class="ap__blurb">{{ author.blurb }}</p>
+        <div class="ap__buttons">
+          <a
+            class="ap__transcript"
+            href="{{ author.yt }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://cdn.filestackcontent.com/Z4hKQZImSbeYjCfz51UL?baseline_movie_black_18dp.png"
+              alt=""
+              aria-hidden="true"
+            />
+            <span> Watch </span>
+          </a>
+          <a
+            class="ap__transcript"
+            href="{{ author.transcript }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://cdn.filestackcontent.com/NpVwo3rAQEeYT6kk2de1?baseline_text_snippet_black_18dp.png"
+              alt=""
+              aria-hidden="true"
+            />
+            <span> Read </span>
+          </a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
