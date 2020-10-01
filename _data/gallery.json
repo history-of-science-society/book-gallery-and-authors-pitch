@@ -163,6 +163,14 @@
         "Publication Year": 2020,
         "Link to Title Detail Page": "https://mitpress.mit.edu/books/sulphuric-utopias",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/668246336/99140426_engelmann.jacket.jpg"
+      },
+      {
+        "Title": "America by the Numbers. Quantification, Democracy, and the Birth of National Statistics",
+        "Author": "Emmanuel Didier",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/america-numbers",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://images-na.ssl-images-amazon.com/images/I/713Y1K-4ipL.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#emmanuel-didier"
       }
     ]
   },
@@ -222,21 +230,21 @@
       {
         "Title": "Can Fixing Dinner Fix the Planet?",
         "Author": "Jessica Fanzo",
-        "Publication Year": 2020,
+        "Publication Year": 2021,
         "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/can-fixing-dinner-fix-planet",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/670037128/99140403_fanzo.jpg"
       },
       {
         "Title": "Havoc and Reform: Workplace Disasters in Modern America",
         "Author": "James P. Kraft",
-        "Publication Year": 2020,
+        "Publication Year": 2021,
         "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/havoc-and-reform",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/670037128/99140411_kraft.jpg"
       },
       {
         "Title": "Sovereign Skies: The Origins of American Civil Aviation Policy",
         "Author": "Sean Seyer",
-        "Publication Year": 2020,
+        "Publication Year": 2021,
         "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/sovereign-skies",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/670037128/99140419_seyer.jpg"
       },
@@ -254,6 +262,14 @@
         "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/republic-numbers",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://images-na.ssl-images-amazon.com/images/I/41IRMnYuR2L._AC_SY400_.jpg",
         "ap": "https://hss-shot.secure-platform.com/a/page/ap#david-lindsay-roberts"
+      },
+      {
+        "Title": "Sailing School: Navigating Science and Skill, 1550-1800",
+        "Author": "Margaret E. Schotte",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/sailing-school",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://m.media-amazon.com/images/I/51ZyJPhMI9L.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#margaret-e.-schotte"
       }
     ]
   },
@@ -395,6 +411,126 @@
         "Publication Year": 2019,
         "Link to Title Detail Page": "https://www.degruyter.com/view/title/554635?utm_source=hss&utm_medium=link&utm_campaign=pl_hss-shot_acad_ww&utm_term=AC&utm_content=read_product_cluster",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/670266296/99140426_9783110654301.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-01 11:04:53",
+    "Name (First)": "Stefan",
+    "Name (Last)": "Einarson",
+    "Email": "einarson@brill.com",
+    "Press or Organization Name": "Brill",
+    "Press or Organization Website": "https://www.brill.com",
+    "Brand Color": "#0f356c",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/672476468/99118630_39946600_1766070030114314_3635593166414938112_n.jpg",
+    "Discount Code": "40% discount with code 71276 25% discount with code 71296",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "The Flowering of Ecology",
+        "Author": "Kay Etheridge",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://brill.com/view/title/26922",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/672476468/99123754_9789004284807.jpg"
+      },
+      {
+        "Title": "The Astronomical Clock of Strasbourg Cathedral",
+        "Author": "Günther Oestmann",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://brill.com/view/title/56926",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/672476468/99140350_9789004423473.jpg"
+      },
+      {
+        "Title": "Pre-1600 Rare Books Collection: Mathematics, Astronomy, Physics, Philosophy & Theology, and Literature",
+        "Author": "The Augustus De Morgan Collection",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://brill.com/view/db/mor1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672476468/99140359_37660.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-01 13:36:03",
+    "Name (First)": "Helen",
+    "Name (Last)": "Appleyard",
+    "Press or Organization Name": "Cambridge University Press",
+    "Press or Organization Website": "https://www.cambridge.org/gb/academic/conferences/history-science-society-annual-meeting/",
+    "Brand Color": "#003E74",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/672549250/99118630_cup_logo_square.png",
+    "Discount Code": "For 30% off use code 100065",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "War Against Smallpox",
+        "Author": "Michael Bennett",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.cambridge.org/9780521147880",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/672549250/99123754_war_against_smallpox_2.jpg"
+      },
+      {
+        "Title": "Social Mendelism",
+        "Author": "Amir Teicher",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.cambridge.org/9781108499491",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/672549250/99140350_9781108499491_social_mendelism_cover.jpg"
+      },
+      {
+        "Title": "Technology in the Industrial Revolution",
+        "Author": "Barbara Hahn",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.cambridge.org/9781316637463",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672549250/99140359_9781107186804frcvr.jpg"
+      },
+      {
+        "Title": "The Power of the Periphery: How Norway Became an Environmental Pioneer for the World",
+        "Author": "Peder J. Anker",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.cambridge.org/core/books/power-of-the-periphery/7070AC66999C30D35EAE07F0A290963A",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://assets.cambridge.org/97811087/25729/cover/9781108725729.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#peder-j.-Anker"
+      },
+      {
+        "Title": "The Science of Useful Nature in Central America: Landscapes, Networks and Practical Enlightenment, 1784–1838",
+        "Author": "Sophie Brockmann",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.cambridge.org/9781108421232 ",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://m.media-amazon.com/images/I/51WzFwX7UiL.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#sophie-brockmann"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-01 13:37:20",
+    "Name (First)": "Claire Lewis",
+    "Name (Last)": "Evans",
+    "Press or Organization Name": "University of Alabama Press",
+    "Press or Organization Website": "https://www.uapress.ua.edu",
+    "Brand Color": "#990000",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/672549821/99118630_logoblock_cmyk.jpg",
+    "Discount Code": "For 40% off, use code HSS2020",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "The Green Revolution in the Global South: Science, Politics, and Unintended Consequences",
+        "Author": "R. Douglas Hurt",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.uapress.ua.edu/product/Green-Revolution-in-the-Global-South,7319.aspx",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/672549821/99123754_jkt_hurt_mktg.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#ray-douglas-hurt"
+      },
+      {
+        "Title": "Fictions of Certitude: Science, Faith, and the Search for Meaning, 1840-1920",
+        "Author": "John S. Haller Jr.",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.uapress.ua.edu/product/Fictions-of-Certitude,7408.aspx",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/672549821/99140350_cvr_haller_mktg.jpg"
+      },
+      {
+        "Title": "André Michaux in North America: Journals and Letters, 1785-1797",
+        "Author": "Translated from the French, Edited, and Annotated by Charlie Williams, Eliane M. Norman, and Walter Kingsley Taylor",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "http://www.uapress.ua.edu/product/Andr%C3%A9-Michaux-in-North-America,7404.aspx",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672549821/99140359_jkt_williams_michaux_mktg.jpg"
       }
     ]
   }

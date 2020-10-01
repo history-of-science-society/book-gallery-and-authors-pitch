@@ -177,6 +177,7 @@
             />
             <span> Watch </span>
           </a>
+          {% if author.transcript != "" %}
           <a
             class="ap__transcript"
             href="{{ author.transcript }}"
@@ -190,6 +191,7 @@
             />
             <span> Read </span>
           </a>
+          {% endif %}
         </div>
       </div>
     </article>
