@@ -1,4 +1,11 @@
 <style>
+  /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
   .hss-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -11,6 +18,8 @@
   }
 
   .hss-directory {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
     margin: 0;
@@ -22,10 +31,17 @@
     padding: 2px 5px;
     border-radius: 8px;
     margin: 5px;
+    -webkit-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
     transition: opacity 200ms ease-in;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 14px;
+    -ms-flex-item-align: center;
     align-self: center;
     white-space: nowrap;
   }
@@ -45,9 +61,16 @@
     border-bottom: 1px solid #dddddd;
   }
   .hss-gallery-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px;
     margin-top: 30px;
@@ -56,9 +79,18 @@
   .hss-gallery-header a {
     color: #ffffff;
     text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-transition: -webkit-text-decoration 200ms ease-in-out;
+    transition: -webkit-text-decoration 200ms ease-in-out;
+    -o-transition: text-decoration 200ms ease-in-out;
     transition: text-decoration 200ms ease-in-out;
+    transition: text-decoration 200ms ease-in-out,
+      -webkit-text-decoration 200ms ease-in-out;
   }
 
   .hss-gallery-header p {
@@ -84,6 +116,7 @@
   }
   .hss-subheader-container {
     background-color: #e6e6e6;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -99,17 +132,24 @@
   }
 
   .hss-gallery-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     /* max-height: 600px; */
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: #e6e6e6;
   }
 
   .hss-gallery-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
     flex: 0;
     min-width: 275px;
 
@@ -117,8 +157,15 @@
 
     border: 1px solid #dddddd;
     border-radius: 8px;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.35),
+      2px 2px 7px rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.35), 2px 2px 7px rgba(0, 0, 0, 0.25);
+    -webkit-transition: -webkit-box-shadow 200ms ease-in-out;
+    transition: -webkit-box-shadow 200ms ease-in-out;
+    -o-transition: box-shadow 200ms ease-in-out;
     transition: box-shadow 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out,
+      -webkit-box-shadow 200ms ease-in-out;
     background-color: #ffffff;
   }
 
@@ -138,6 +185,8 @@
   }
 
   .hss-gallery-item:hover {
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.25),
+      12px 12px 7px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 12px 12px 7px rgba(0, 0, 0, 0.15);
   }
 
@@ -146,7 +195,10 @@
     width: 100%;
     display: block;
     margin: 0 auto;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: #dddddd;
@@ -176,6 +228,7 @@
     /* overflow: hidden; */
     overflow: hidden;
     /* white-space: nowrap; */
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -183,8 +236,15 @@
   }
 
   .hss-gallery__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1.75rem 1.5rem;
   }
@@ -219,6 +279,10 @@
         De Gruyter
       </a>
       
+      <a href="#ieee-history-center">
+        IEEE History Center
+      </a>
+      
       <a href="#johns-hopkins-university-press">
         Johns Hopkins University Press
       </a>
@@ -231,8 +295,16 @@
         The MIT Press
       </a>
       
+      <a href="#the-university-of-chicago-press">
+        The University of Chicago Press
+      </a>
+      
       <a href="#university-of-alabama-press">
         University of Alabama Press
+      </a>
+      
+      <a href="#university-of-california-press">
+        University of California Press
       </a>
       
     </div>
@@ -886,6 +958,89 @@
   
   <div
     class="hss-gallery-target"
+    id="ieee-history-center"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #00629B"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://www.ieee.org/about/history-center/index.html"
+      >
+        <img
+          src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/673030343/99118630_ieee_history_center_newsletter_banner.jpg"
+          alt="IEEE History Center"
+        />
+        <h2>IEEE History Center</h2></a
+      >
+    </header>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.amazon.com/New-York-Power-Joseph-Cunningham/dp/1484826515/ref=pd_sim_b_1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/673030343/99123754_300px-cunningham_cover_hard_copy001.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">New York Power</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Joseph J. Cunningham</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                IEEE History Center (2013)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.amazon.com/Bell-Labs-Memoirs-Innovation-Geselowitz/dp/1463677979/ref=sr_1_1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/673030343/99140350_bell_labs.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Bell Labs Memoirs:  Voices of Innovation</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">A. Michael Noll and Michael Geselowitz, Editors</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                IEEE History Center (2011)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.amazon.com/The-Birth-Electric-Traction-extraordinary/dp/1490955348/ref=sr_1_1?ie=UTF8&qid=1408394270&sr=8-1">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/673030343/99140359_traction_.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Birth of Electric Traction: The Extraordinary Life of Inventor Frank Julian Sprague</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Frank Rowsome, Jr.</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                IEEE History Center (2014)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
     id="johns-hopkins-university-press"
   ></div>
   <section class="hss-gallery">
@@ -948,6 +1103,8 @@
       </article>
       
       <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#stephen-p.-weldon">🎬 HSS Authors' Pitch</a>
         
         <a href="https://jhupbooks.press.jhu.edu/title/scientific-spirit-american-humanism">
           <header>
@@ -1431,6 +1588,8 @@
       
       <article class="hss-gallery-item">
         
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#mark-solovey">🎬 HSS Authors' Pitch</a>
+        
         <a href="https://mitpress.mit.edu/books/social-science-what">
           <header>
             <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668246336/99140403_solovey.jacket.jpg" alt="item.Title" />
@@ -1526,6 +1685,1075 @@
         </a>
       </article>
       
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#ainissa-ramirez">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://mitpress.mit.edu/books/alchemy-us">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://m.media-amazon.com/images/I/415ompZnXWL.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Alchemy of Us: How Humans and Matter Transformed One Another</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Ainissa Ramirez</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The MIT Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="the-university-of-chicago-press"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #155F83"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://www.journals.uchicago.edu/hss"
+      >
+        <img
+          src="https://openwaterserverless.azurewebsites.net/api/imageconvert?url=https%3A%2F%2Fvo-general.s3.amazonaws.com%2Fb676d105-23b6-40b8-8d1d-b009fa476508%2F06abda9e-f11a-4a85-9967-b2eca0ad41ab%3FAWSAccessKeyId%3DAKIAJ4PRWO26HAX3IOCA%26Expires%3D1687988597%26response-content-disposition%3Dinline%253B%2520filename%253D%2522UChicagoPress-250x250.png%2522%26response-content-type%3Dimage%252Fpng%26Signature%3D4P5E5szxbMwtxI2Vx3bW303kYbc%253D&width=200&height=200&color=white"
+          alt="The University of Chicago Press"
+        />
+        <h2>The University of Chicago Press</h2></a
+      >
+    </header>
+    
+    <p class="hss-gallery-discount">Receive 30% off books with code EX56719 and 20% off many journals with code UCPJ20</p>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/toc/isis/current">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/672677078/99123754_isis.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Isis: A Journal of the History of Science Society</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Editors: Alexandra Hui and Matthew Lavine</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/toc/osiris/2020/35">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/672677078/99140350_osiris.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Osiris 35: Food Matters</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Edited by E. C. Spary and Anya Zilberstein (Series Editors: W. Patrick McCray and Suman Seth)</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/journal/bjps">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672677078/99140359_bjps.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The British Journal for the Philosophy of Science (New to Chicago in 2021)</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Editors in Chief: Wendy Parker and Robert Rupert</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/toc/hopos/current">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/672677078/99140370_hopos.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">HOPOS: The Journal of the International Society for the History of Philosophy of Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Editor: Lydia Patton</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/toc/phos/current">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/672677078/99140385_philosophy-of-science.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Philosophy of Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Editor: Andrea Woody</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.journals.uchicago.edu/toc/hoh/current">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/672677078/99140393_history-of-humanities.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">History of Humanities</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Editors: Rens Bod, Julia Kursell, Jaap Maat, Thijs Weststeijn</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/B/bo61909220.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/672677078/99140403_9780226740034.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Blood Relations: Transfusion and the Making of Human Genetics</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jenny Bangham</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/X/bo28082465.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/672677078/99140411_9780226551616.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The X Club: Power and Authority in Victorian Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Ruth Barton</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/I/bo28911306.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/672677078/99140419_9780226558240.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Invention of Madness: State, Society, and the Insane in Modern China</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Emily Baum</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#etienne-s.-benson">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo50271092.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/672677078/99140426_9780226706290.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Surroundings: A History of Environments and Environmentalisms</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Etienne S. Benson</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo28246106.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226481142.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Helmholtz: A Life in Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">David Cahan</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#carolyn-a.-cobbold">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/R/bo57274125.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226727059.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">A Rainbow Palate: How Chemical Dyes Changed the West's Relationship with Food</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Carolyn Cobbold</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo24768042.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140454/672677078/99140454_9780226752334.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Climate in Motion: Science, Empire, and the Problem of Scale</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Deborah R. Coen</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/P/bo24045005.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140462/672677078/99140462_9780226377926.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Pure Adulteration: Cheating on Nature in the Age of Manufactured Food</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Benjamin R. Cohen</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo28179042.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140469/672677078/99140469_9780226752501.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Scientific Journal: Authorship and the Politics of Knowledge in the Nineteenth Century</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Alex Csiszar</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo46951589.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140479/672677078/99140479_9780226676517.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Science Periodicals in Nineteenth-Century Britain: Constructing Scientific Communities</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Edited by Gowan Dawson, Bernard Lightman, Sally Shuttleworth, and Jonathan R. Topham</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#soraya-de-chadarevian">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo47674227.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140499/672677078/99140499_9780226685113.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Heredity under the Microscope: Chromosomes and the Study of the Human Genome</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Soraya de Chadarevian</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo50700187.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140507/672677078/99140507_9780226706801.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Merchants of Medicines: The Commerce and Coercion of Health in Britain's Long Eighteenth Century</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Zachary Dorner</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/E/bo37161206.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140773/672677078/99140773_9780226621432.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Emotionally Disturbed: A History of Caring for America's Troubled Children</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Deborah Blythe Doroshow</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/W/bo27154098.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140782/672677078/99140782_9780226507705.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Waters of the World: The Story of the Scientists Who Unraveled the Mysteries of Our Oceans, Atmosphere, and Ice Sheets and Made the Planet Whole</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Sarah Dry</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#marilyn-fischer">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/J/bo38871596.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99141302/672677078/99141302_9780226631325.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Jane Addams's Evolutionary Theorizing: Constructing ""Democracy and Social Ethics""</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Marilyn Fischer</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/P/bo27034996.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140790/672677078/99140790_9780226501857.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Pain, Pleasure, and the Greater Good: From the Panopticon to the Skinner Box and Beyond</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Cathy Gere</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2017)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo37805871.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226625157.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Membranes to Molecular Machines: Active Matter and the Remaking of Life</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Mathias Grote</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#vanessa-heggie">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo41676188.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226650883.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Higher and Colder: A History of Extreme Physiology and Exploration</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Vanessa Heggie</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/W/bo58927880.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226731889.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">White Market Drugs: Big Pharma and the Hidden History of Addiction in America</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">David Herzberg</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/Q/bo49298912.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226698052.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Quantum Legacies: Dispatches from an Uncertain World</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">David Kaiser</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/P/bo44520895.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226666761.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Participant: A Century of Participation in Four Stories</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Christopher M. Kelty</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/I/bo36366461.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226617985.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Inside Science: Stories from the Field in Human and Animal Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Robert E. Kohler</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#hannah-marcus">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/F/bo60921208.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226736587.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Forbidden Knowledge: Medicine, Science, and Censorship in Early Modern Italy</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Hannah Marcus</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo50271026.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226699820.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Making Spirit Matter: Neurology, Psychology, and Selfhood in Modern France </p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Larry Sommer McGrath</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo40850643.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226638096.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Mobilizing Mutations: Human Genetics in the Age of Patient Advocacy</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Daniel Navon</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/N/bo48885576.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226693835.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Nature of the Future: Agriculture, Science, and Capitalism in the Antebellum North</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Emily Pawley</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo38181532.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226629186.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Synthesizing Hope: Matter, Knowledge, and Place in South African Drug Discovery</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Anne Pollock</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo34250632.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226592268.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Spanish Disquiet: The Biblical Natural Philosophy of Benito Arias Montano</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">María M. Portuondo</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#courtenay-raia">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/N/bo38870824.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226635354.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The New Prometheans: Faith, Science, and the Supernatural Mind in the Victorian Fin de Siècle</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Courtenay Raia</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#jennifer-m.-rampling">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/E/bo50462000.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226710709.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Experimental Fire: Inventing English Alchemy, 1300-1700</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jennifer M. Rampling</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/P/bo68660583.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226744858.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Poison Trials: Wonder Drugs, Experiment, and the Battle for Authority in Renaissance Science</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Alisha Rankin</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2021)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/R/bo41676119.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226651729.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Republic of Color: Science, Perception, and the Making of Modern America</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Michael Rossi</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#rachel-emma-rothschild">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/P/bo38871100.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226634715.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Poisonous Skies: Acid Rain and the Globalization of Pollution</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Rachel Emma Rothschild</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/T/bo28911204.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226583976.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Technology: Critical History of a Concept</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Eric Schatzberg </p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2018)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#robin-wolfe-sheffler">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo25975598.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226628370.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">A Contagious Cause: The American Hunt for Cancer Viruses and the Rise of Molecular Medicine</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Robin Wolfe Scheffler</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo48408362.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226637143.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Midlife Crisis: The Feminist Origins of a Chauvinist Cliché</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Susanne Schmidt</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#david-sepkoski">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo22982546.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226348612.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Catastrophic Thinking: Extinction and the Value of Diversity from Darwin to the Anthropocene</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">David Sepkoski</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo24045083.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226377759.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Shoddy: From Devil's Dust to the Renaissance of Rags</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Hanna Rose Shell</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#matthew-shindell">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/L/bo43987910.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226662084.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">The Life and Science of Harold C. Urey</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Matthew Shindell</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#jaipreet-virdi">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo48885494.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226690612.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Hearing Happiness: Deafness Cures in History</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Jaipreet Virdi</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#simon-werrett">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/T/bo35612006.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226610252.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Thrifty Science: Making the Most of Materials in the History of Experiment</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Simon Werrett</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/A/bo48885705.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226693040.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Appetite and Its Discontents: Science, Medicine, and the Urge to Eat, 1750-1950</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Elizabeth A. Williams</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/W/bo45713064.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226674728.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">When Maps Become the World</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Rasmus Grønfeldt Winther</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/A/bo46479577.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226680866.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Aesthetic Science: Representing Nature in the Royal Society of London, 1650-1720</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Alexander Wragge-Morley</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#john-m.-krige">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo34094209.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226605999.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">How Knowledge Moves. Writing the Transnational History of Science and Technology</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">John M. Krige</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2019)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a class="hss-gallery-ap" href="https://hss-shot.secure-platform.com/a/page/ap#janet-vertesi">🎬 HSS Authors' Pitch</a>
+        
+        <a href="https://press.uchicago.edu/ucp/books/book/chicago/S/bo49911700.html">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226691084.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Shaping Science: Organizations, Decisions, and Culture on NASA’s Teams</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Janet Vertesi</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                The University of Chicago Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
     </div>
   </section>
   
@@ -1607,6 +2835,89 @@
               <small class="hss-gallery-pub">
                 <!-- prettier-ignore -->
                 University of Alabama Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </section>
+  
+  <div
+    class="hss-gallery-target"
+    id="university-of-california-press"
+  ></div>
+  <section class="hss-gallery">
+    <header
+      class="hss-gallery-header"
+      style="background-color: #c85519"
+    >
+      <a
+        class="hss-gallery-link"
+        href="https://www.ucpress.edu/"
+      >
+        <img
+          src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/673112194/99118630_uc_press_center_stacked.jpg"
+          alt="University of California Press"
+        />
+        <h2>University of California Press</h2></a
+      >
+    </header>
+    
+    <div class="hss-gallery-container">
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://online.ucpress.edu/hsns">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/673112194/99123754_hsns_generic.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">HSNS: Historical Studies in the Natural Sciences</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author"></p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                University of California Press 
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.ucpress.edu/book/9780520325050/after-the-gig">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/673112194/99140350_9780520325050.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">After the Gig: How the Sharing Economy Got Hijacked and How to Win It Back</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Juliet Schor </p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                University of California Press (2020)
+              </small>
+            </div>
+          </div>
+        </a>
+      </article>
+      
+      <article class="hss-gallery-item">
+        
+        <a href="https://www.ucpress.edu/book/9780520343238/lets-ask-marion">
+          <header>
+            <img src="https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/673112194/99140359_9780520343238.jpg" alt="item.Title" />
+          </header>
+          <div class="hss-gallery__body">
+            <p class="hss-gallery-title">Let's Ask Marion: What You Need to Know about the Politics of Food, Nutrition, and Health</p>
+            <div class="hss-gallery__body--bottom">
+              <p class="hss-gallery-author">Marion Nestle and Kerry Trueman</p>
+              <small class="hss-gallery-pub">
+                <!-- prettier-ignore -->
+                University of California Press (2020)
               </small>
             </div>
           </div>

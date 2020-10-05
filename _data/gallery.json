@@ -141,7 +141,8 @@
         "Author": "Mark Solovey",
         "Publication Year": 2020,
         "Link to Title Detail Page": "https://mitpress.mit.edu/books/social-science-what",
-        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668246336/99140403_solovey.jacket.jpg"
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/668246336/99140403_solovey.jacket.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#mark-solovey"
       },
       {
         "Title": "Technoscience in History: Prussia, 1750-1850",
@@ -171,6 +172,14 @@
         "Link to Title Detail Page": "https://mitpress.mit.edu/books/america-numbers",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://images-na.ssl-images-amazon.com/images/I/713Y1K-4ipL.jpg",
         "ap": "https://hss-shot.secure-platform.com/a/page/ap#emmanuel-didier"
+      },
+      {
+        "Title": "The Alchemy of Us: How Humans and Matter Transformed One Another",
+        "Author": "Ainissa Ramirez",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://mitpress.mit.edu/books/alchemy-us",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://m.media-amazon.com/images/I/415ompZnXWL.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#ainissa-ramirez"
       }
     ]
   },
@@ -204,7 +213,8 @@
         "Author": "Stephen P. Weldon",
         "Publication Year": 2020,
         "Link to Title Detail Page": "https://jhupbooks.press.jhu.edu/title/scientific-spirit-american-humanism",
-        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670037128/99140359_weldon.jpg"
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/670037128/99140359_weldon.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#stephen-p.-weldon"
       },
       {
         "Title": "On Time: A History of Western Timekeeping",
@@ -531,6 +541,467 @@
         "Publication Year": 2020,
         "Link to Title Detail Page": "http://www.uapress.ua.edu/product/Andr%C3%A9-Michaux-in-North-America,7404.aspx",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672549821/99140359_jkt_williams_michaux_mktg.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-01 18:35:22",
+    "Name (First)": "R.",
+    "Name (Last)": "Rittenhouse",
+    "Email": "rittenhouse@uchicago.edu",
+    "Press or Organization Name": "The University of Chicago Press",
+    "Press or Organization Website": "https://www.journals.uchicago.edu/hss",
+    "Brand Color": "#155F83",
+    "Logo": "https://openwaterserverless.azurewebsites.net/api/imageconvert?url=https%3A%2F%2Fvo-general.s3.amazonaws.com%2Fb676d105-23b6-40b8-8d1d-b009fa476508%2F06abda9e-f11a-4a85-9967-b2eca0ad41ab%3FAWSAccessKeyId%3DAKIAJ4PRWO26HAX3IOCA%26Expires%3D1687988597%26response-content-disposition%3Dinline%253B%2520filename%253D%2522UChicagoPress-250x250.png%2522%26response-content-type%3Dimage%252Fpng%26Signature%3D4P5E5szxbMwtxI2Vx3bW303kYbc%253D&width=200&height=200&color=white",
+    "Discount Code": "Receive 30% off books with code EX56719 and 20% off many journals with code UCPJ20",
+    "How many titles would you like to submit?": 50,
+    "titles": [
+      {
+        "Title": "Isis: A Journal of the History of Science Society",
+        "Author": "Editors: Alexandra Hui and Matthew Lavine",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/toc/isis/current",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/672677078/99123754_isis.jpg"
+      },
+      {
+        "Title": "Osiris 35: Food Matters",
+        "Author": "Edited by E. C. Spary and Anya Zilberstein (Series Editors: W. Patrick McCray and Suman Seth)",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/toc/osiris/2020/35",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/672677078/99140350_osiris.jpg"
+      },
+      {
+        "Title": "The British Journal for the Philosophy of Science (New to Chicago in 2021)",
+        "Author": "Editors in Chief: Wendy Parker and Robert Rupert",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/journal/bjps",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/672677078/99140359_bjps.jpg"
+      },
+      {
+        "Title": "HOPOS: The Journal of the International Society for the History of Philosophy of Science",
+        "Author": "Editor: Lydia Patton",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/toc/hopos/current",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/672677078/99140370_hopos.jpg"
+      },
+      {
+        "Title": "Philosophy of Science",
+        "Author": "Editor: Andrea Woody",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/toc/phos/current",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/672677078/99140385_philosophy-of-science.jpg"
+      },
+      {
+        "Title": "History of Humanities",
+        "Author": "Editors: Rens Bod, Julia Kursell, Jaap Maat, Thijs Weststeijn",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://www.journals.uchicago.edu/toc/hoh/current",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140393/672677078/99140393_history-of-humanities.jpg"
+      },
+      {
+        "Title": "Blood Relations: Transfusion and the Making of Human Genetics",
+        "Author": "Jenny Bangham",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/B/bo61909220.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140403/672677078/99140403_9780226740034.jpg"
+      },
+      {
+        "Title": "The X Club: Power and Authority in Victorian Science",
+        "Author": "Ruth Barton",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/X/bo28082465.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140411/672677078/99140411_9780226551616.jpg"
+      },
+      {
+        "Title": "The Invention of Madness: State, Society, and the Insane in Modern China",
+        "Author": "Emily Baum",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/I/bo28911306.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/672677078/99140419_9780226558240.jpg"
+      },
+      {
+        "Title": "Surroundings: A History of Environments and Environmentalisms",
+        "Author": "Etienne S. Benson",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo50271092.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/672677078/99140426_9780226706290.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#etienne-s.-benson"
+      },
+      {
+        "Title": "Helmholtz: A Life in Science",
+        "Author": "David Cahan",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo28246106.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226481142.jpg"
+      },
+      {
+        "Title": "A Rainbow Palate: How Chemical Dyes Changed the West's Relationship with Food",
+        "Author": "Carolyn Cobbold",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo57274125.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226727059.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#carolyn-a.-cobbold"
+      },
+      {
+        "Title": "Climate in Motion: Science, Empire, and the Problem of Scale",
+        "Author": "Deborah R. Coen",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo24768042.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140454/672677078/99140454_9780226752334.jpg"
+      },
+      {
+        "Title": "Pure Adulteration: Cheating on Nature in the Age of Manufactured Food",
+        "Author": "Benjamin R. Cohen",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo24045005.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140462/672677078/99140462_9780226377926.jpg"
+      },
+      {
+        "Title": "The Scientific Journal: Authorship and the Politics of Knowledge in the Nineteenth Century",
+        "Author": "Alex Csiszar",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo28179042.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140469/672677078/99140469_9780226752501.jpg"
+      },
+      {
+        "Title": "Science Periodicals in Nineteenth-Century Britain: Constructing Scientific Communities",
+        "Author": "Edited by Gowan Dawson, Bernard Lightman, Sally Shuttleworth, and Jonathan R. Topham",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo46951589.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140479/672677078/99140479_9780226676517.jpg"
+      },
+      {
+        "Title": "Heredity under the Microscope: Chromosomes and the Study of the Human Genome",
+        "Author": "Soraya de Chadarevian",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo47674227.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140499/672677078/99140499_9780226685113.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#soraya-de-chadarevian"
+      },
+      {
+        "Title": "Merchants of Medicines: The Commerce and Coercion of Health in Britain's Long Eighteenth Century",
+        "Author": "Zachary Dorner",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo50700187.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140507/672677078/99140507_9780226706801.jpg"
+      },
+      {
+        "Title": "Emotionally Disturbed: A History of Caring for America's Troubled Children",
+        "Author": "Deborah Blythe Doroshow",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo37161206.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140773/672677078/99140773_9780226621432.jpg"
+      },
+      {
+        "Title": "Waters of the World: The Story of the Scientists Who Unraveled the Mysteries of Our Oceans, Atmosphere, and Ice Sheets and Made the Planet Whole",
+        "Author": "Sarah Dry",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo27154098.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140782/672677078/99140782_9780226507705.jpg"
+      },
+      {
+        "Title": "Jane Addams's Evolutionary Theorizing: Constructing \"\"Democracy and Social Ethics\"\"",
+        "Author": "Marilyn Fischer",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo38871596.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99141302/672677078/99141302_9780226631325.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#marilyn-fischer"
+      },
+      {
+        "Title": "Pain, Pleasure, and the Greater Good: From the Panopticon to the Skinner Box and Beyond",
+        "Author": "Cathy Gere",
+        "Publication Year": 2017,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo27034996.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140790/672677078/99140790_9780226501857.jpg"
+      },
+      {
+        "Title": "Membranes to Molecular Machines: Active Matter and the Remaking of Life",
+        "Author": "Mathias Grote",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo37805871.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226625157.jpg"
+      },
+      {
+        "Title": "Higher and Colder: A History of Extreme Physiology and Exploration",
+        "Author": "Vanessa Heggie",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo41676188.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226650883.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#vanessa-heggie"
+      },
+      {
+        "Title": "White Market Drugs: Big Pharma and the Hidden History of Addiction in America",
+        "Author": "David Herzberg",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo58927880.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226731889.jpg"
+      },
+      {
+        "Title": "Quantum Legacies: Dispatches from an Uncertain World",
+        "Author": "David Kaiser",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/Q/bo49298912.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226698052.jpg"
+      },
+      {
+        "Title": "The Participant: A Century of Participation in Four Stories",
+        "Author": "Christopher M. Kelty",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo44520895.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226666761.jpg"
+      },
+      {
+        "Title": "Inside Science: Stories from the Field in Human and Animal Science",
+        "Author": "Robert E. Kohler",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/I/bo36366461.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226617985.jpg"
+      },
+      {
+        "Title": "Forbidden Knowledge: Medicine, Science, and Censorship in Early Modern Italy",
+        "Author": "Hannah Marcus",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/F/bo60921208.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226736587.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#hannah-marcus"
+      },
+      {
+        "Title": "Making Spirit Matter: Neurology, Psychology, and Selfhood in Modern France ",
+        "Author": "Larry Sommer McGrath",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo50271026.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226699820.jpg"
+      },
+      {
+        "Title": "Mobilizing Mutations: Human Genetics in the Age of Patient Advocacy",
+        "Author": "Daniel Navon",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo40850643.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226638096.jpg"
+      },
+      {
+        "Title": "The Nature of the Future: Agriculture, Science, and Capitalism in the Antebellum North",
+        "Author": "Emily Pawley",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/N/bo48885576.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226693835.jpg"
+      },
+      {
+        "Title": "Synthesizing Hope: Matter, Knowledge, and Place in South African Drug Discovery",
+        "Author": "Anne Pollock",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo38181532.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226629186.jpg"
+      },
+      {
+        "Title": "The Spanish Disquiet: The Biblical Natural Philosophy of Benito Arias Montano",
+        "Author": "María M. Portuondo",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo34250632.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226592268.jpg"
+      },
+      {
+        "Title": "The New Prometheans: Faith, Science, and the Supernatural Mind in the Victorian Fin de Siècle",
+        "Author": "Courtenay Raia",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/N/bo38870824.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226635354.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#courtenay-raia"
+      },
+      {
+        "Title": "The Experimental Fire: Inventing English Alchemy, 1300-1700",
+        "Author": "Jennifer M. Rampling",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo50462000.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226710709.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#jennifer-m.-rampling"
+      },
+      {
+        "Title": "The Poison Trials: Wonder Drugs, Experiment, and the Battle for Authority in Renaissance Science",
+        "Author": "Alisha Rankin",
+        "Publication Year": 2021,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo68660583.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226744858.jpg"
+      },
+      {
+        "Title": "The Republic of Color: Science, Perception, and the Making of Modern America",
+        "Author": "Michael Rossi",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo41676119.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226651729.jpg"
+      },
+      {
+        "Title": "Poisonous Skies: Acid Rain and the Globalization of Pollution",
+        "Author": "Rachel Emma Rothschild",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo38871100.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226634715.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#rachel-emma-rothschild"
+      },
+      {
+        "Title": "Technology: Critical History of a Concept",
+        "Author": "Eric Schatzberg ",
+        "Publication Year": 2018,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo28911204.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226583976.jpg"
+      },
+      {
+        "Title": "A Contagious Cause: The American Hunt for Cancer Viruses and the Rise of Molecular Medicine",
+        "Author": "Robin Wolfe Scheffler",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo25975598.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226628370.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#robin-wolfe-sheffler"
+      },
+      {
+        "Title": "Midlife Crisis: The Feminist Origins of a Chauvinist Cliché",
+        "Author": "Susanne Schmidt",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo48408362.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226637143.jpg"
+      },
+      {
+        "Title": "Catastrophic Thinking: Extinction and the Value of Diversity from Darwin to the Anthropocene",
+        "Author": "David Sepkoski",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22982546.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226348612.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#david-sepkoski"
+      },
+      {
+        "Title": "Shoddy: From Devil's Dust to the Renaissance of Rags",
+        "Author": "Hanna Rose Shell",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo24045083.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226377759.jpg"
+      },
+      {
+        "Title": "The Life and Science of Harold C. Urey",
+        "Author": "Matthew Shindell",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo43987910.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226662084.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#matthew-shindell"
+      },
+      {
+        "Title": "Hearing Happiness: Deafness Cures in History",
+        "Author": "Jaipreet Virdi",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo48885494.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226690612.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#jaipreet-virdi"
+      },
+      {
+        "Title": "Thrifty Science: Making the Most of Materials in the History of Experiment",
+        "Author": "Simon Werrett",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo35612006.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226610252.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#simon-werrett"
+      },
+      {
+        "Title": "Appetite and Its Discontents: Science, Medicine, and the Urge to Eat, 1750-1950",
+        "Author": "Elizabeth A. Williams",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo48885705.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226693040.jpg"
+      },
+      {
+        "Title": "When Maps Become the World",
+        "Author": "Rasmus Grønfeldt Winther",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo45713064.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226674728.jpg"
+      },
+      {
+        "Title": "Aesthetic Science: Representing Nature in the Royal Society of London, 1650-1720",
+        "Author": "Alexander Wragge-Morley",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo46479577.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226680866.jpg"
+      },
+      {
+        "Title": "How Knowledge Moves. Writing the Transnational History of Science and Technology",
+        "Author": "John M. Krige",
+        "Publication Year": "2019",
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo34094209.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226605999.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#john-m.-krige"
+      },
+      {
+        "Title": "Shaping Science: Organizations, Decisions, and Culture on NASA’s Teams",
+        "Author": "Janet Vertesi",
+        "Publication Year": "2020",
+        "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo49911700.html",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://tmm.chicagodistributioncenter.com/IsbnImages/9780226691084.jpg",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#janet-vertesi"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-02 15:10:40",
+    "Press or Organization Name": "IEEE History Center",
+    "Press or Organization Website": "https://www.ieee.org/about/history-center/index.html",
+    "Brand Color": "#00629B",
+    "Discount Code": "",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/673030343/99118630_ieee_history_center_newsletter_banner.jpg",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "New York Power",
+        "Author": "Joseph J. Cunningham",
+        "Publication Year": 2013,
+        "Link to Title Detail Page": "https://www.amazon.com/New-York-Power-Joseph-Cunningham/dp/1484826515/ref=pd_sim_b_1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/673030343/99123754_300px-cunningham_cover_hard_copy001.jpg"
+      },
+      {
+        "Title": "Bell Labs Memoirs:  Voices of Innovation",
+        "Author": "A. Michael Noll and Michael Geselowitz, Editors",
+        "Publication Year": 2011,
+        "Link to Title Detail Page": "https://www.amazon.com/Bell-Labs-Memoirs-Innovation-Geselowitz/dp/1463677979/ref=sr_1_1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/673030343/99140350_bell_labs.jpg"
+      },
+      {
+        "Title": "The Birth of Electric Traction: The Extraordinary Life of Inventor Frank Julian Sprague",
+        "Author": "Frank Rowsome, Jr.",
+        "Publication Year": 2014,
+        "Link to Title Detail Page": "https://www.amazon.com/The-Birth-Electric-Traction-extraordinary/dp/1490955348/ref=sr_1_1?ie=UTF8&qid=1408394270&sr=8-1",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/673030343/99140359_traction_.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-02 19:17:09",
+    "Name (First)": "",
+    "Name (Last)": "",
+    "Email": "",
+    "Press or Organization Name": "University of California Press",
+    "Press or Organization Website": "https://www.ucpress.edu/",
+    "Brand Color": "#c85519",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/673112194/99118630_uc_press_center_stacked.jpg",
+    "Discount Code": "",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "HSNS: Historical Studies in the Natural Sciences",
+        "Author": "",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://online.ucpress.edu/hsns",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/673112194/99123754_hsns_generic.jpg"
+      },
+      {
+        "Title": "After the Gig: How the Sharing Economy Got Hijacked and How to Win It Back",
+        "Author": "Juliet Schor ",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.ucpress.edu/book/9780520325050/after-the-gig",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/673112194/99140350_9780520325050.jpg"
+      },
+      {
+        "Title": "Let's Ask Marion: What You Need to Know about the Politics of Food, Nutrition, and Health",
+        "Author": "Marion Nestle and Kerry Trueman",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.ucpress.edu/book/9780520343238/lets-ask-marion",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/673112194/99140359_9780520343238.jpg"
       }
     ]
   }

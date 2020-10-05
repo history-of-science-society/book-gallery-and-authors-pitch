@@ -1,4 +1,11 @@
 <style>
+  /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
   .ap {
     padding: 1em;
     line-height: 1.4;
@@ -7,8 +14,13 @@
     font-size: 16px;
   }
   .ap__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
   }
@@ -19,8 +31,12 @@
     margin: 0.5em;
     border: 3px solid #bdbbbb;
     background: #fffefe;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
   }
   .ap__header {
@@ -84,7 +100,11 @@
   }
 
   .ap__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 0.5em;
   }
@@ -102,15 +122,23 @@
   }
 
   .ap__transcript {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     margin-top: 1em;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     color: #444444;
     padding: 0.25em 0.5em;
     border: 1px solid #bdbbbb;
     text-decoration: none;
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .ap__transcript:hover {

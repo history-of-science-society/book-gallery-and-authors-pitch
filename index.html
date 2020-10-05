@@ -1,4 +1,11 @@
 <style>
+  /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
   .hss-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -11,6 +18,8 @@
   }
 
   .hss-directory {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
     margin: 0;
@@ -22,10 +31,17 @@
     padding: 2px 5px;
     border-radius: 8px;
     margin: 5px;
+    -webkit-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
     transition: opacity 200ms ease-in;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 14px;
+    -ms-flex-item-align: center;
     align-self: center;
     white-space: nowrap;
   }
@@ -45,9 +61,16 @@
     border-bottom: 1px solid #dddddd;
   }
   .hss-gallery-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px;
     margin-top: 30px;
@@ -56,9 +79,18 @@
   .hss-gallery-header a {
     color: #ffffff;
     text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-transition: -webkit-text-decoration 200ms ease-in-out;
+    transition: -webkit-text-decoration 200ms ease-in-out;
+    -o-transition: text-decoration 200ms ease-in-out;
     transition: text-decoration 200ms ease-in-out;
+    transition: text-decoration 200ms ease-in-out,
+      -webkit-text-decoration 200ms ease-in-out;
   }
 
   .hss-gallery-header p {
@@ -84,6 +116,7 @@
   }
   .hss-subheader-container {
     background-color: #e6e6e6;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -99,17 +132,24 @@
   }
 
   .hss-gallery-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     /* max-height: 600px; */
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: #e6e6e6;
   }
 
   .hss-gallery-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
     flex: 0;
     min-width: 275px;
 
@@ -117,8 +157,15 @@
 
     border: 1px solid #dddddd;
     border-radius: 8px;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.35),
+      2px 2px 7px rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.35), 2px 2px 7px rgba(0, 0, 0, 0.25);
+    -webkit-transition: -webkit-box-shadow 200ms ease-in-out;
+    transition: -webkit-box-shadow 200ms ease-in-out;
+    -o-transition: box-shadow 200ms ease-in-out;
     transition: box-shadow 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out,
+      -webkit-box-shadow 200ms ease-in-out;
     background-color: #ffffff;
   }
 
@@ -138,6 +185,8 @@
   }
 
   .hss-gallery-item:hover {
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.25),
+      12px 12px 7px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 12px 12px 7px rgba(0, 0, 0, 0.15);
   }
 
@@ -146,7 +195,10 @@
     width: 100%;
     display: block;
     margin: 0 auto;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: #dddddd;
@@ -176,6 +228,7 @@
     /* overflow: hidden; */
     overflow: hidden;
     /* white-space: nowrap; */
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -183,8 +236,15 @@
   }
 
   .hss-gallery__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1.75rem 1.5rem;
   }
@@ -249,7 +309,7 @@
               <p class="hss-gallery-author">{{ item.Author }}</p>
               <small class="hss-gallery-pub">
                 <!-- prettier-ignore -->
-                {{ title['Press or Organization Name'] }} ({{ item['Publication Year'] }})
+                {{ title['Press or Organization Name'] }} {%if item['Publication Year'] != "" %}({{ item['Publication Year'] }}){% endif %}
               </small>
             </div>
           </div>
