@@ -8,7 +8,7 @@
     "Brand Color": "#0085CA",
     "Text": "#ffffff",
     "Logo": "https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/668099414/99118630_brepols_boat_with_border_square.jpg",
-    "Discount Code": "",
+    "Discount Code": "To claim your conference discount and free shipping on these and other titles, go to http://bit.ly/HSSHOT2020.",
     "How many titles would you like to submit?": 10,
     "titles": [
       {
@@ -321,7 +321,8 @@
         "Publication Year": 2020,
         "Link to Title Detail Page": "https://press.princeton.edu/books/paperback/9780691210438/creatures-of-cain",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691181882.jpg?w=640",
-        "ap": "https://hss-shot.secure-platform.com/a/page/ap#erika-lorraine-milam"
+        "prize": "2020 Levinson Prize Winner",
+        "prize-url": "https://hssonline.org/about/honors/suzanne-j-levinson-prize/"
       },
       {
         "Title": "Einstein in Bohemia",
@@ -338,6 +339,15 @@
         "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691179049/know-your-remedies",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691179049.jpg?w=640",
         "ap": "https://hss-shot.secure-platform.com/a/page/ap#he-bian"
+      },
+      {
+        "Title": "Genetics in the Madhouse: The Unknown History of Human Heredity",
+        "Author": "Theodore M. Porter",
+        "Publication Year": "2018",
+        "Link to Title Detail Page": "https://press.princeton.edu/books/hardcover/9780691164540/genetics-in-the-madhouse",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://pup-assets.imgix.net/onix/images/9780691164540.jpg?w=640",
+        "prize": "2020 Pfizer Award Winner",
+        "prize-url": "https://hssonline.org/about/honors/pfizer-award/"
       }
     ]
   },
@@ -514,7 +524,7 @@
     "Name (First)": "Claire Lewis",
     "Name (Last)": "Evans",
     "Press or Organization Name": "University of Alabama Press",
-    "Press or Organization Website": "https://www.uapress.ua.edu",
+    "Press or Organization Website": "https://mailchi.mp/fd7f3b5bc214/hss2020",
     "Brand Color": "#990000",
     "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/672549821/99118630_logoblock_cmyk.jpg",
     "Discount Code": "For 40% off, use code HSS2020",
@@ -712,7 +722,9 @@
         "Author": "Cathy Gere",
         "Publication Year": 2017,
         "Link to Title Detail Page": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo27034996.html",
-        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140790/672677078/99140790_9780226501857.jpg"
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140790/672677078/99140790_9780226501857.jpg",
+        "prize": "2020 Davis Prize Winner",
+        "prize-url": "https://hssonline.org/about/honors/watson-davis-and-helen-miles-davis-prize/"
       },
       {
         "Title": "Membranes to Molecular Machines: Active Matter and the Remaking of Life",
@@ -1002,6 +1014,364 @@
         "Publication Year": 2020,
         "Link to Title Detail Page": "https://www.ucpress.edu/book/9780520343238/lets-ask-marion",
         "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/673112194/99140359_9780520343238.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-05 18:11:19",
+    "Name (First)": "Jessica",
+    "Name (Last)": "Reza",
+    "Email": "jreza@umn.edu",
+    "Press or Organization Name": "University of Minnesota Press",
+    "Press or Organization Website": "https://www.upress.umn.edu/book-division/collections/shot-2020",
+    "Brand Color": "#800000",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/674015725/99118630_ump_red_logo_300.jpg",
+    "Discount Code": "For 40% off, use promo code MN87100 on our website",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "Digitize and Punish",
+        "Author": "Brian Jefferson",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.upress.umn.edu/book-division/books/digitize-and-punish",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/674015725/99123754_9781517909239.jpg"
+      },
+      {
+        "Title": "Design, Control, Predict",
+        "Author": "Aaron Shapiro",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.upress.umn.edu/book-division/books/design-control-predict",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/674015725/99140350_9781517908270.jpg"
+      },
+      {
+        "Title": "How the Working-Class Home Became Modern, 1900-1940",
+        "Author": "Thomas C. Hubka",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://www.upress.umn.edu/book-division/books/how-the-working-class-home-became-modern-1900-1940",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/674015725/99140359_9780816693016.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-06 08:53:42",
+    "Press or Organization Name": "Yale University Press",
+    "Press or Organization Website": "https://yalebooks.yale.edu/history-science-societysociety-history-technology-2020",
+    "Brand Color": "#0A347E",
+    "Logo": "https://openwaterserverless.azurewebsites.net/api/imageconvert?url=https%3A%2F%2Fvo-general.s3.amazonaws.com%2Fb676d105-23b6-40b8-8d1d-b009fa476508%2Fdef7516d-e80a-4936-a9c4-28762cbbe754%3FAWSAccessKeyId%3DAKIAJ4PRWO26HAX3IOCA%26Expires%3D1688303619%26response-content-disposition%3Dinline%253B%2520filename%253D%2522new%2520yale%2520one%2520line.JPG%2522%26response-content-type%3Dimage%252Fjpeg%26Signature%3DUmh32NnBykm0FlHjHise8tEBLOY%253D&width=200&height=200&color=white",
+    "Discount Code": "For 30% these titles and more, use code Y6221.",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "Diabetes",
+        "Author": "Arleen Marcia Tuchman",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://yalebooks.yale.edu/book/9780300228991/diabetes",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://yalebooks.yale.edu/sites/default/files/styles/book_jacket/public/imagecache/external/c7d8f464daa398856205aa3cd86331c2.jpg"
+      },
+      {
+        "Title": "Legions of Pigs",
+        "Author": "Jamie Kreiner",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://yalebooks.yale.edu/book/9780300246292/legions-pigs-early-medieval-west",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://yalebooks.yale.edu/sites/default/files/styles/book_jacket/public/imagecache/external/c79dac43292e857175d06de4907a92d9.jpg"
+      },
+      {
+        "Title": "The Clock Mirage",
+        "Author": "Joseph Mazur",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://yalebooks.yale.edu/book/9780300229325/clock-mirage",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://yalebooks.yale.edu/sites/default/files/styles/book_jacket/public/imagecache/external/cd8977c6339ffd91f990b799b310bd2d.jpg"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-06 11:27:10",
+    "Press or Organization Name": "Oxford University Press",
+    "Press or Organization Website": "https://global.oup.com/academic/contactus/?cc=gb&lang=en",
+    "Brand Color": "#0A347E",
+    "Logo": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/674315682/99118630_oup_logo.jpg",
+    "Discount Code": "",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "The Oxford Handbook on the History of Modern Cosmology",
+        "Author": "H. Kragh, M. Longair",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://global.oup.com/academic/product/the-oxford-handbook-of-the-history-of-modern-cosmology-9780198817666?q=Kragh%20Longair&lang=en&cc=gb",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/674315682/99123754_9780198817666_fc.jpg"
+      },
+      {
+        "Title": "Constructing Quantum Mechanics - Volume 1: The Scaffold 1900 - 1923",
+        "Author": "A. Duncan and M. Janssen",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://global.oup.com/academic/product/constructing-quantum-mechanics-9780198845478?q=Duncan%20Janssen&lang=en&cc=gb",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/674315682/99140350_9780198845478_fc.jpg"
+      },
+      {
+        "Title": "A Living Work of Art - The Life and Science of Hendrik Antoon Lorentz",
+        "Author": "A. Kox, H. Schatz",
+        "Publication Year": 2021,
+        "Link to Title Detail Page": "https://global.oup.com/academic/product/a-living-work-of-art-9780198870500?q=Kox%20Lorentz&lang=en&cc=gb",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/674315682/99140359_9780198870500_fc.jpg"
+      },
+      {
+        "Title": "The Myth of the Perfect Pregnancy: A History of Miscarriage in America",
+        "Author": "Lara Freidenfelds",
+        "Publication Year": 2020,
+        "Link to Title Detail Page": "https://global.oup.com/academic/product/the-myth-of-the-perfect-pregnancy-9780190869816?cc=us&lang=en&",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://global.oup.com/academic/covers/pop-up/9780190869816",
+        "ap": "https://hss-shot.secure-platform.com/a/page/ap#lara-freidenfelds"
+      }
+    ]
+  },
+  {
+    "Time": "2020-10-06 14:06:16",
+    "Press or Organization Name": "Springer Nature",
+    "Press or Organization Website": "https://www.springer.com/series/8442",
+    "Brand Color": "#0A347E",
+    "Logo": "https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99118630/674402743/99118630_sn_logo_for_hss.jpg",
+    "Discount Code": "For 20% discount, use promo code: 20DIY204",
+    "How many titles would you like to submit?": 3,
+    "titles": [
+      {
+        "Title": "From Urban Legends to Political Fact-Checking",
+        "Author": "William Aspray and Jim Cortada",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://www.springer.com/gp/book/9783030229511#otherversion=9783030229511",
+        "Title Cover Image": "https://images.springer.com/sgw/books/medium/9783030229511.jpg"
+      },
+      {
+        "Title": "Exploring the Early Digital",
+        "Author": "Thomas Haigh",
+        "Publication Year": 2019,
+        "Link to Title Detail Page": "https://www.springer.com/gp/book/9783030021511#otherversion=9783030021511",
+        "Title Cover Image": "https://images.springer.com/sgw/books/medium/9783030021511.jpg"
+      },
+      {
+        "Title": "Intertwingled",
+        "Author": "Douglas R. Dechow and Daniele C. Struppa",
+        "Publication Year": 2015,
+        "Link to Title Detail Page": "https://www.springer.com/gp/book/9783319169248#otherversion=9783319169248",
+        "Title Cover Image": "https://images.springer.com/sgw/books/medium/9783319169248.jpg"
+      }
+    ]
+  },
+  {
+    "Press or Organization Name": "Rootenberg Rare Books & Manuscripts",
+    "Press or Organization Website": "https://www.rootenbergbooks.com/",
+    "Brand Color": "#0A347E",
+    "Discount Code": "",
+    "Logo": "https://www.rootenbergbooks.com/images/logo.png?v=2",
+    "titles": [
+      {
+        "Title": "\"Experimental relations of gold (and other metals) to light.\" In: Philosophical Transactions, 147, Part I, pp. 145-181, [1]",
+        "Author": "FARADAY, Michael",
+        "Publication Year": 1857,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "Magie, oder, die Zauberkräfte der Natur, so auf den Nutzen und die Belustigung angewandt worden",
+        "Author": "HALLE, Johann Samuel",
+        "Publication Year": 1784,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "The electrical researches of the honourable Henry Cavendish. . . .",
+        "Author": "CAVENDISH, Henry. MAXWELL, J. Clerk, ed.",
+        "Publication Year": 1879,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "The Vocation of Man",
+        "Author": "FICHTE, Johann Gottlieb",
+        "Publication Year": 1848,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "Crania Helvetica",
+        "Author": "RUTIMEYER, Ludwig & HIS, Wilhelm",
+        "Publication Year": 1864,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "Libra astronomica ac philosophica qua Galilaei Galilaei opiniones de cometis a Mario Guicucio in Florentina Academia expositae, atque in lucem nuper editae, examinantur a Lothario Sarsio Sigensano",
+        "Author": "[GRASSI, Orazio]",
+        "Publication Year": 1619,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "\"On the theory of compound colours, and the relations of the colours of the spectrum.\" In: Philosophical Transactions, 150, Part I, pp. 57-84",
+        "Author": "MAXWELL, J. Clerk",
+        "Publication Year": 1860,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "PRIVAT-DESCHANEL, A.",
+        "Author": "Elementary Treatise on natural philosophy",
+        "Publication Year": 1872,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "JEVONS, W. Stanley",
+        "Author": "The principles of science: a treatise on logic and scientific method.",
+        "Publication Year": 1874,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "[MARCET, Jane].",
+        "Author": "Conversations on chemistry, in which the elements of that science are familiarly explained and illustrated by experiments and plates. . .",
+        "Publication Year": 1814,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "HAECKEL, Ernst",
+        "Author": "The history of creation: or the development of the earth and its inhabitants by the action of natural causes. . .",
+        "Publication Year": 1880,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "THOMSON, J.J.",
+        "Author": "Notes on recent researches in electricity and magnetism intended as a sequel to Clerk-Maxwell’s treatise on electricity and magnetism",
+        "Publication Year": 1893,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "MAXWELL, J. C.",
+        "Author": "A Treatise on Electricity and Magnetism",
+        "Publication Year": 1881,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "ROSENBERGER, Ferd.",
+        "Author": "Isaac Newton und seine Physikalischen Principien",
+        "Publication Year": 1895,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "THOMSON, W.",
+        "Author": "Popular Lectures and Addresses",
+        "Publication Year": 1891,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "SCRIBONIUS, Guihelmo Adolfo",
+        "Author": "Triumphus logicæ Rameæ, ubi tum in ipsa præcepta P. Rami addita, tum in vniuersos eius interpretes & animaduersores animaduersiones obseruationes a plurimæ proponunter. . . .",
+        "Publication Year": 1583,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "RAMUS, Petrus",
+        "Author": "Arithmeticae libri duo, cum commentariis Wilebrordi Snelli.",
+        "Publication Year": 1613,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "FARADAY, Michael. JONES, Bence",
+        "Author": "The life and letters of Faraday",
+        "Publication Year": 1870,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "WALKER, A[dam]",
+        "Author": "A system of familiar philosophy : in twelve lectures....",
+        "Publication Year": 1802,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "TISSANDIER, Gaston",
+        "Author": "Archive of material relating to the Zenith balloon disaster",
+        "Publication Year": 1875,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "USSHER, Archbishop James of Armagh",
+        "Author": "The annals of the world. Deduced from the origin of time, and continued to the beginning of the Emperour Vespasians reign, and the totall destruction and abolition of the Temple and common-wealth of the Jews. Containing the historie of the Old and New Testament, with that of the Macchabees. Also all the most memorable affairs of Asia and Egypt, and the rise of the Empire of the Roman Caesars, under C. Julius, and Octavianus.",
+        "Publication Year": 1658,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "BROUGH, John Cargill",
+        "Author": "Fairy tales of science",
+        "Publication Year": 1859,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "NATIONAL ACADEMY OF SCIENCES",
+        "Author": "Biographical Memoirs",
+        "Publication Year": "n.d.",
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/upload/v1602110437/rootenberg.jpg_s9718h.png"
+      },
+      {
+        "Title": "Foundations of potential theory",
+        "Author": "KELLOGG, Oliver Dimon",
+        "Publication Year": 1929,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99123754/675067404/99123754_img_0767.jpg"
+      },
+      {
+        "Title": "A treatise on probability",
+        "Author": "KEYNES, John Maynard",
+        "Publication Year": 1929,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140350/675067404/99140350_keynes_title.jpg"
+      },
+      {
+        "Title": "A critical exposition of the philosophy of Leibniz",
+        "Author": "RUSSELL, Bertrand",
+        "Publication Year": 1900,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140359/675067404/99140359_another_title.jpg"
+      },
+      {
+        "Title": "The dragons of Eden: speculations on the evolution of human intelligence",
+        "Author": "SAGAN, Carl",
+        "Publication Year": 1977,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140370/675067404/99140370_dust_jacket.jpg"
+      },
+      {
+        "Title": "\"\"The influence of the expansion of space on the gravitation fields surrounding the individual stars.Plus: Corrections and additional remarks to our paper...",
+        "Author": "EINSTEIN, Albert & STRAUS, Ernst G.",
+        "Publication Year": 1945,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140385/675067404/99140385_einstein-straus.jpg"
+      },
+      {
+        "Title": "Baltimore lectures on molecular dynamics and the wave theory of light",
+        "Author": "KELVIN, Lord",
+        "Publication Year": 1904,
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140419/675067404/99140419_text_illustration.jpg"
+      },
+      {
+        "Title": "The outline of history being a plain history of life and mankind... written with the advice and editorial help of Mr. Ernest Barker, Sir H. H. Johnston, Sir E. Ray Lankester, and Professor Gilbert Murray",
+        "Author": "WELLS, H.G.",
+        "Publication Year": "",
+        "Link to Title Detail Page": "https://tinyurl.com/HSSandSHOT",
+        "Title Cover Image": "https://res.cloudinary.com/hss/image/fetch/w_300/https://s3.amazonaws.com/files.formstack.com/uploads/4064152/99140426/675067404/99140426_wells_ii_01.jpg"
       }
     ]
   }

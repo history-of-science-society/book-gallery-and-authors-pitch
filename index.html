@@ -103,8 +103,8 @@
   .hss-gallery-header img {
     height: 50px;
     width: auto;
-    border-radius: 8px;
-    margin-right: 0.5rem;
+    border-radius: 4px;
+    margin-right: 15px;
   }
 
   .hss-gallery-discount {
@@ -174,7 +174,8 @@
     height: 100%;
   }
 
-  .hss-gallery-ap {
+  .hss-gallery-ap,
+  .hss-gallery-ap--prize {
     position: absolute;
     padding: 4px;
     background-color: #f9f871;
@@ -286,6 +287,7 @@
         <img
           src="{{title.Logo}}"
           alt="{{ title['Press or Organization Name'] }}"
+          loading="lazy"
         />
         <h2>{{ title['Press or Organization Name'] }}</h2></a
       >
@@ -295,13 +297,21 @@
     {% endif %}
     <div class="hss-gallery-container">
       {% for item in title.titles %}
-      <article class="hss-gallery-item">
+      <article class="hss-gallery-item" id="{{ item.Title | slugify }}">
         {%if item.ap %}
         <a class="hss-gallery-ap" href="{{ item.ap }}">🎬 HSS Authors' Pitch</a>
+        {% endif %} {%if item.prize %}
+        <a class="hss-gallery-ap--prize" href="{{ item.prize-url }}"
+          >🏆 {{ item.prize }}</a
+        >
         {% endif %}
         <a href="{{ item['Link to Title Detail Page'] }}">
           <header>
-            <img src="{{ item['Title Cover Image'] }}" alt="item.Title" />
+            <img
+              src="{{ item['Title Cover Image'] }}"
+              alt="item.Title"
+              loading="lazy"
+            />
           </header>
           <div class="hss-gallery__body">
             <p class="hss-gallery-title">{{ item.Title }}</p>
